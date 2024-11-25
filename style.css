@@ -1,0 +1,37 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderContainer {
+  margin: 50px;
+}
+
+.sliderContainer input {
+  border-radius: 8px;
+  height: 7px;
+  border: 1px solid #bdc3c7;
+  background-color: #fff;
+}
+
+.sliderContainer input::-webkit-slider-thumb {
+  color: #458dff;
+  
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: none;
+  background-color: #458dff;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.sliderContainer input:focus {
+  outline: none;
+}
